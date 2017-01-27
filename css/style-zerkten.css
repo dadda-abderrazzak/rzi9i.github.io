@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../fonts/NewFonts/JF-Flat-regular.eot');
+    src: url('../fonts/NewFonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NewFonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../fonts/NewFonts/JF-Flat-regular.woff') format('woff'),
+    url('../fonts/NewFonts/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    Body
+*/
+body{
+    font-family: "JF Flat Regular";
+}
+/*
+    Header
+*/
+header{
+/*
+    background: url(../img/Bg_Header.jpg) center repeat-y;
+*/
+    background-image: url('../img/Bg_Header.jpg');
+    background-size: cover;
+    min-height: 760px;
+    padding: 50px;
+}
+.navbar{
+    background: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    background: 0;
+    color: #f99f11;
+    border-bottom: 5px solid #ff9800;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.search .form-control {
+    margin: 10px 0px;
+    height: 40px;
+    border: 2px solid #cbcbcb;
+    border-radius: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f99f11;
+}
+/*
+    Articles
+*/
+.Articles{
+    min-height: 760px;
+}
+.titreArticles{
+    border: 5px dashed #000;
+    margin-bottom: 37px;
+    margin-top: 3px;
+}
+.titreArticles h1{
+    text-align: center;
+    font-size: 4em;
+}
+.contentArticle .thumbnail {
+    position: relative;
+    padding: 0px;
+    height: 490px;
+    background: #e6e9ed;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.contentArticle .thumbnail img {
+    height: 270px;
+    width: 100%;
+}
+.contentArticle .thumbnail .badge{
+    background-color: #428bca;
+    font-size: 1em;
+}
+.contentArticle .thumbnail .info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: #fff;
+    margin-right: 10px; 
+}
+
+.contentArticle .thumbnail .caption{
+    height: 180px;
+}
+.Content{
+    height: 118px;
+    text-align: justify;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+.LireSuite{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.LireSuite .btn-success {
+    background-color: #2ecc71;
+    border: 1px solid #fff;
+    width: 139px;
+    height: 48px;
+    border-radius: 10px;
+}
+.LireSuite .btn-success:hover {
+    background-color: #429842;
+}
+.LireSuite a{
+    text-align: center;
+    padding: 8px;
+    font-size: 1.5em;
+}
+
+.contentArticle .thumbnail .dateArticle{
+    height: 40px;
+    background: #323232;
+    color: #fff;
+    padding: 10px;
+    font-size: 1em;
+}
+.moreArticle{
+    text-align:center;
+}
+.btn-moreArticle{
+    background-color: #ffa71c;
+    color: #fff;
+    font-size: 2.5em;
+    width: 200px;
+    height: 67px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.btn-moreArticle:hover{
+    background-color: #f99f11;
+    color: #fff;
+}
+hr{
+    margin: 0 auto;
+    width:75%;
+}
+
+/*
+    Albums
+*/
+.Albums{
+    min-height: 760px;
+}
+.titreAlbums{
+    border: 5px dashed #000;
+    margin-bottom: 37px;
+    margin-top: 3px;
+}
+.titreAlbums h1{
+    text-align: center;
+    font-size: 4em;
+}
+.hovereffect {
+    width: 100%;
+    height: 290px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin:10px 0px;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+    background-color: rgba(48, 152, 157, 0.4);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin: 20px 0;
+    padding: 80px 100px;
+}
+.hovereffect a.info span{
+    color: #f99f11;
+    font-size: 3em;
+}
+
+.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.nbreAimes{
+    position: absolute;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 2px 10px;
+    bottom: 0;
+    right: 0;
+}
+
+/*
+    QuiSommesNous
+*/
+
+.QuiSommesNous{
+    background-image: url('../img/Bg_QuiSommeNous.jpg');
+    background-size: cover;
+    min-height: 760px;
+    padding: 50px;
+}
+.QuiSommesNous .Infos{
+    width:100%;
+    border:8px solid #fff;
+    background-color: none;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 13px;
+}
+.QuiSommesNous .Infos h1{
+    color: #f69c0e;
+    font-size: 7em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.QuiSommesNous .Infos p{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+    
+}
+.Infos p{
+    text-align: center;
+    margin-top: 6%;
+}
+.moreAboutUs{
+    background-color: #efebeb;
+    border: none;
+    border-radius: 0px;
+    color: #919090;
+    font-size: 2em;
+}
+
+/*
+    AboutUs
+*/
+.ContactUs{
+    background:#323232;
+    color: #fff;
+    min-height:760px;
+}
+.ContactUs h2{
+    font-size: 3em;
+    font-weight: bold;
+    width: 170px;
+    padding: 10px;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.ContactUs p{
+    font-size: 2em;
+}
+.ContactUs span{
+    padding-left: 10px;
+}
+
+.ContactUs form label,.ContactUs form button{
+    font-size: 1.5em;
+}
+.ContactUs form input{
+    color: #fff;
+    height: 50px;
+    background: #535353;
+    border-radius: 0;
+}
+.ContactUs form textarea{
+    color: #fff;
+    background: #535353;
+    border-radius: 0;
+}
+.ContactUs form button{
+    height: 50px;
+    width:100px;
+    background: #222222;
+    border-radius: 0;
+}
+.ContactUs form button:hover,
+.ContactUs form button:focus{
+    color: #fff;
+}
+/*
+    Media Query
+*/
+
+/*
+@media only screen and (max-width: 800px) {
+    .QuiSommesNous .Infos h1{ 
+        font-size:4em;
+    }
+    .QuiSommesNous .Infos p{ 
+        font-size:1.5em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .QuiSommesNous .Infos h1{ 
+        font-size:5em;
+    }
+    .QuiSommesNous .Infos p{ 
+        font-size:2em;
+    }
+} 
+*/
+
