@@ -120,7 +120,8 @@ header{
     height: 48px;
     border-radius: 10px;
 }
-.LireSuite .btn-success:hover {
+.LireSuite .btn-success:hover,
+.LireSuite .btn-success:focus {
     background-color: #429842;
 }
 .LireSuite a{
@@ -335,15 +336,12 @@ hr{
 /*
     320×595 hadi hya resolution dyal portable dyali o site fih machakil
 */ 
-/*
-@media only screen and (max-width: 800px) {
-    .QuiSommesNous .Infos h1{ 
-        font-size:4em;
-    }
-    .QuiSommesNous .Infos p{ 
-        font-size:1.5em;
+@media only screen and (max-width: 600px) {
+    .ContactUs h3{
+        font-size: 3vw;
     }
 }
+/*
 
 @media only screen and (min-width: 800px) {
     .QuiSommesNous .Infos h1{ 
