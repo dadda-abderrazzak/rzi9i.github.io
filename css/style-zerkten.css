@@ -347,16 +347,14 @@ hr{
     .ContactUs h3{
         font-size: 3vw;
     }
+    .QuiSommesNous .Infos{
+        margin-top: 25vw;
+    }
+    .QuiSommesNous .Infos h1{
+        font-size: 6vw;
+    }
+    .QuiSommesNous .Infos p{
+        font-size: 4vw;
+    }
 }
-/*
-
-@media only screen and (min-width: 800px) {
-    .QuiSommesNous .Infos h1{ 
-        font-size:5em;
-    }
-    .QuiSommesNous .Infos p{ 
-        font-size:2em;
-    }
-} 
-*/
 
