@@ -21,14 +21,20 @@ body{
 /*
     Header
 */
-header{
 /*
+header{
     background: url(../img/Bg_Header.jpg) center repeat-y;
-*/
     background-image: url('../img/Bg_Header.jpg');
     background-size: cover;
     min-height: 760px;
     padding: 50px;
+}
+*/
+.Accueil{
+    background-image: url('../img/Bg_Header.jpg');
+    background-size: cover;
+    min-height: 760px;
+    padding: 50px 0;
 }
 .navbar{
     background: 0;
@@ -251,13 +257,14 @@ hr{
     background-image: url('../img/Bg_QuiSommeNous.jpg');
     background-size: cover;
     min-height: 760px;
-    padding: 50px;
+/*    padding: 50px;*/
 }
 .QuiSommesNous .Infos{
     background-color: none;
     border:8px solid #fff;
     color: #fff;
     margin-top: 40px;
+    margin-bottom: 40px;
     width:100%;
 }
 .QuiSommesNous .Infos h1{
