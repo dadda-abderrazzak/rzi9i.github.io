@@ -64,10 +64,10 @@ $(function () {
                 val = $(this).val();
             if (isArabic.test($.trim($(this).val()))) {
                 $(this).css("direction", "rtl");
-                console.log("yes it's Arabic | val = " + val);
+//              console.log("yes it's Arabic | val = " + val);
             } else {
                 $(this).css("direction", "ltr");
-                console.log("no it's French | val = " + val);
+//              console.log("no it's French | val = " + val);
             }
         });
     });
